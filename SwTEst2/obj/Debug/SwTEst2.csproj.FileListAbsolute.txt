@@ -1,0 +1,9 @@
+c:\users\victor\documents\visual studio 2012\Projects\SwTEst2\SwTEst2\bin\Debug\SwTEst2.exe.config
+C:\Users\Victor\documents\visual studio 2012\Projects\SwTEst2\SwTEst2\obj\Debug\SwTEst2.csprojResolveAssemblyReference.cache
+C:\Users\Victor\documents\visual studio 2012\Projects\SwTEst2\SwTEst2\obj\Debug\SwTEst2.Form1.resources
+C:\Users\Victor\documents\visual studio 2012\Projects\SwTEst2\SwTEst2\obj\Debug\SwTEst2.Properties.Resources.resources
+C:\Users\Victor\documents\visual studio 2012\Projects\SwTEst2\SwTEst2\obj\Debug\SwTEst2.csproj.GenerateResource.Cache
+C:\Users\Victor\documents\visual studio 2012\Projects\SwTEst2\SwTEst2\bin\Debug\SwTEst2.exe
+C:\Users\Victor\documents\visual studio 2012\Projects\SwTEst2\SwTEst2\bin\Debug\SwTEst2.pdb
+C:\Users\Victor\documents\visual studio 2012\Projects\SwTEst2\SwTEst2\obj\Debug\SwTEst2.exe
+C:\Users\Victor\documents\visual studio 2012\Projects\SwTEst2\SwTEst2\obj\Debug\SwTEst2.pdb
