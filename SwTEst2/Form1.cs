@@ -21,8 +21,18 @@ namespace SwTEst2
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            
+        }
+
+        private void Macro1_but_Click(object sender, EventArgs e)
+        {
             SolidWorksMacro s = new SolidWorksMacro();
-            s.Start();
+            s.Macro1();
+        }
+
+        private void Macro2_but_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

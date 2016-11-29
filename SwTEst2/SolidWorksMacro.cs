@@ -12,7 +12,7 @@ namespace Macro1.csproj
     {
         public SldWorks swApp;
 
-        public void Start()
+        public void Macro1()
         {
             swApp = (SldWorks)Activator.CreateInstance(Type.GetTypeFromProgID("SldWorks.Application"));
             ModelDoc2 swDoc = ((ModelDoc2)(swApp.ActiveDoc));
@@ -59,7 +59,7 @@ namespace Macro1.csproj
 
                     //////////////////////////////////////////////
                     //вставка первого пальца
-                    string AdPrtName = @"E:\_Study\3 курс 2 сем\ОАК\ДЛЯ АНТОНА\Units\Locator1.SLDPRt";
+                    string AdPrtName = @"E:\_Study\3 курс 2 сем\ОАК\Units\Locator1.SLDPRt";
                     int longstatus = 0;
                     swDoc = ((ModelDoc2)(swApp.ActiveDoc));
                     object Preop;
@@ -94,7 +94,7 @@ namespace Macro1.csproj
 
                     ////////////////////////////////////////////////
                     //вставка второго пальца
-                    AdPrtName = @"E:\_Study\3 курс 2 сем\ОАК\ДЛЯ АНТОНА\Units\Locator2.SLDPRt";
+                    AdPrtName = @"E:\_Study\3 курс 2 сем\ОАК\Units\Locator1.SLDPRt";
                     longstatus = 0;
                     swDoc = ((ModelDoc2)(swApp.ActiveDoc));
                     Preop = swApp.OpenDoc6(AdPrtName, (int)swDocumentTypes_e.swDocPART,
@@ -127,7 +127,7 @@ namespace Macro1.csproj
                     MovingComponent(Np, new double[] { 0, 0, 0.1 });
 
                     ////////////////////////////////////////////Вставка пластины1
-                    string AdPrtName3 = @"E:\_Study\3 курс 2 сем\ОАК\ДЛЯ АНТОНА\Units\Locator7.SLDPRt";
+                    string AdPrtName3 = @"E:\_Study\3 курс 2 сем\ОАК\Units\Locator7.SLDPRt";
                     object Preop3;
                     swDoc = ((ModelDoc2)(swApp.ActiveDoc));
                     Preop3 = swApp.OpenDoc6(AdPrtName3, (int)swDocumentTypes_e.swDocPART, (int)swOpenDocOptions_e.swOpenDocOptions_Silent, "", ref longstatus, ref longwarnings);
@@ -148,7 +148,7 @@ namespace Macro1.csproj
 
 
                     ////////////////////////////////////////////Вставка пластины2
-                    AdPrtName3 = @"E:\_Study\3 курс 2 сем\ОАК\ДЛЯ АНТОНА\Units\Locator7.SLDPRt";
+                    AdPrtName3 = @"E:\_Study\3 курс 2 сем\ОАК\Units\Locator7.SLDPRt";
                     swDoc = ((ModelDoc2)(swApp.ActiveDoc));
                     Preop3 = swApp.OpenDoc6(AdPrtName3, (int)swDocumentTypes_e.swDocPART, (int)swOpenDocOptions_e.swOpenDocOptions_Silent, "", ref longstatus, ref longwarnings);
                     Component2 Np2 = swAssembly.AddComponent5(AdPrtName3, (int)swAddComponentConfigOptions_e.swAddComponentConfigOptions_CurrentSelectedConfig, "", false, "", 0, 0, 0);
@@ -167,7 +167,7 @@ namespace Macro1.csproj
 
 
                     ////////////////////////////////////////////Вставка пластины3
-                    AdPrtName3 = @"E:\_Study\3 курс 2 сем\ОАК\ДЛЯ АНТОНА\Units\Locator7.SLDPRt";
+                    AdPrtName3 = @"E:\_Study\3 курс 2 сем\ОАК\Units\Locator7.SLDPRt";
                     swDoc = ((ModelDoc2)(swApp.ActiveDoc));
                     Preop3 = swApp.OpenDoc6(AdPrtName3, (int)swDocumentTypes_e.swDocPART,
                         (int)swOpenDocOptions_e.swOpenDocOptions_Silent, "", ref longstatus, ref longwarnings);

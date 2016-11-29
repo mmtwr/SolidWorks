@@ -7,3 +7,21 @@ C:\Users\Victor\documents\visual studio 2012\Projects\SwTEst2\SwTEst2\bin\Debug\
 C:\Users\Victor\documents\visual studio 2012\Projects\SwTEst2\SwTEst2\bin\Debug\SwTEst2.pdb
 C:\Users\Victor\documents\visual studio 2012\Projects\SwTEst2\SwTEst2\obj\Debug\SwTEst2.exe
 C:\Users\Victor\documents\visual studio 2012\Projects\SwTEst2\SwTEst2\obj\Debug\SwTEst2.pdb
+C:\Users\Victor\Desktop\SolidWorks-master\SolidWorks-master\SwTEst2\bin\Debug\SwTEst2.exe.config
+C:\Users\Victor\Desktop\SolidWorks-master\SolidWorks-master\SwTEst2\obj\Debug\SwTEst2.exe
+C:\Users\Victor\Desktop\SolidWorks-master\SolidWorks-master\SwTEst2\obj\Debug\SwTEst2.pdb
+C:\Users\Victor\Desktop\SolidWorks-master\SolidWorks-master\SwTEst2\bin\Debug\SwTEst2.exe
+C:\Users\Victor\Desktop\SolidWorks-master\SolidWorks-master\SwTEst2\bin\Debug\SwTEst2.pdb
+C:\Users\Victor\Desktop\SolidWorks-master\SolidWorks-master\SwTEst2\obj\Debug\SwTEst2.csprojResolveAssemblyReference.cache
+C:\Users\Victor\Desktop\SolidWorks-master\SolidWorks-master\SwTEst2\obj\Debug\SwTEst2.Form1.resources
+C:\Users\Victor\Desktop\SolidWorks-master\SolidWorks-master\SwTEst2\obj\Debug\SwTEst2.Properties.Resources.resources
+C:\Users\Victor\Desktop\SolidWorks-master\SolidWorks-master\SwTEst2\obj\Debug\SwTEst2.csproj.GenerateResource.Cache
+E:\_Study\4 курс 1 сем\оак\SwTEst2\SolidWorks\SwTEst2\bin\Debug\SwTEst2.exe.config
+E:\_Study\4 курс 1 сем\оак\SwTEst2\SolidWorks\SwTEst2\obj\Debug\SwTEst2.exe
+E:\_Study\4 курс 1 сем\оак\SwTEst2\SolidWorks\SwTEst2\obj\Debug\SwTEst2.pdb
+E:\_Study\4 курс 1 сем\оак\SwTEst2\SolidWorks\SwTEst2\bin\Debug\SwTEst2.exe
+E:\_Study\4 курс 1 сем\оак\SwTEst2\SolidWorks\SwTEst2\bin\Debug\SwTEst2.pdb
+E:\_Study\4 курс 1 сем\оак\SwTEst2\SolidWorks\SwTEst2\obj\Debug\SwTEst2.csprojResolveAssemblyReference.cache
+E:\_Study\4 курс 1 сем\оак\SwTEst2\SolidWorks\SwTEst2\obj\Debug\SwTEst2.Form1.resources
+E:\_Study\4 курс 1 сем\оак\SwTEst2\SolidWorks\SwTEst2\obj\Debug\SwTEst2.Properties.Resources.resources
+E:\_Study\4 курс 1 сем\оак\SwTEst2\SolidWorks\SwTEst2\obj\Debug\SwTEst2.csproj.GenerateResource.Cache
