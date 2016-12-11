@@ -27,12 +27,13 @@ namespace SwTEst2
         private void Macro1_but_Click(object sender, EventArgs e)
         {
             SolidWorksMacro s = new SolidWorksMacro();
-            s.Macro1();
+            s.Macro1();         
         }
 
         private void Macro2_but_Click(object sender, EventArgs e)
         {
-
+            SolidWorksMacro2 s2 = new SolidWorksMacro2();
+            s2.Macro2();
         }
     }
 }

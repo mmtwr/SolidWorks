@@ -32,12 +32,12 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="SolidWorks.Interop.sldworks">
-      <HintPath>E:\_Study\4 курс 1 сем\оак\SolidWorks.Interop.sldworks.dll</HintPath>
+    <Reference Include="SolidWorks_Interop_sldworks">
+      <HintPath>..\..\SolidWorks_Interop_sldworks.dll</HintPath>
       <EmbedInteropTypes>True</EmbedInteropTypes>
     </Reference>
-    <Reference Include="SolidWorks.Interop.swconst">
-      <HintPath>E:\_Study\4 курс 1 сем\оак\SolidWorks.Interop.swconst.dll</HintPath>
+    <Reference Include="SolidWorks_Interop_swconst">
+      <HintPath>..\..\SolidWorks_Interop_swconst.dll</HintPath>
       <EmbedInteropTypes>True</EmbedInteropTypes>
     </Reference>
     <Reference Include="System" />
@@ -61,6 +61,7 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SolidWorksMacro.cs" />
+    <Compile Include="SolidWorksMacro2.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
