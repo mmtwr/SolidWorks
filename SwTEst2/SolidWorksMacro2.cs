@@ -14,6 +14,8 @@ namespace SwTEst2
 {
     class SolidWorksMacro2
     {
+        public SldWorks swApp;
+
         public class Coordinate
         {
             private double x;
@@ -323,12 +325,5 @@ namespace SwTEst2
                 SelectionManager.DeSelect(1);
             }
         }
-
-        /// <summary>
-        ///  The SldWorks swApp variable is pre-assigned for you.
-        /// </summary>
-        public SldWorks swApp;
-
     }
-
 }

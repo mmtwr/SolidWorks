@@ -59,7 +59,7 @@ namespace Macro1.csproj
 
                     //////////////////////////////////////////////
                     //вставка первого пальца
-                    string AdPrtName = @"E:\_Study\3 курс 2 сем\ОАК\Units\Locator1.SLDPRt";
+                    string AdPrtName = @"E:\_Study\3 курс 2 сем\ОАК\Units\Locator2.SLDPRt";
                     int longstatus = 0;
                     swDoc = ((ModelDoc2)(swApp.ActiveDoc));
                     object Preop;
@@ -82,19 +82,19 @@ namespace Macro1.csproj
                     Entity faceToSelect = GetFirstSelectedCylinder(faces, surfaces, ref cylinderDiameter);
                     //выбор цилиндра с минимальным диаметром - палец
                     GetCylinderWithMinDiameterInFirstFinger(Np);
-                    IMate2 planeMate = swAssembly.AddMate3((int)swMateType_e.swMateCONCENTRIC, -1, false, 0, 0, 0, 0, 0, 0.5, 0.5, 0.5, false, out longwarnings);
+                    IMate2 planeMate = swAssembly.AddMate3((int)swMateType_e.swMateCONCENTRIC, 0, false, 0, 0, 0, 0, 0, 0.5, 0.5, 0.5, false, out longwarnings);
                     DeselectAllSurfaces(SelectionManager);
                     swDoc.Rebuild(1);
 
                     EquationMgr equationManager = (EquationMgr)(((IModelDoc2)Np.GetModelDoc()).GetEquationMgr());
-                    string findSubstring = "FirstFingerDiameter";
+                    string findSubstring = "D";
                     ChooseDiameterInFinger(cylinderDiameter, equationManager, findSubstring);
                     swDoc.Rebuild(1);
-                    MovingComponent(Np, new double[] { 0, 0, 0.045 });
+                    MovingComponent(Np, new double[] { 0, 0, -0.025 });
 
                     ////////////////////////////////////////////////
                     //вставка второго пальца
-                    AdPrtName = @"E:\_Study\3 курс 2 сем\ОАК\Units\Locator1.SLDPRt";
+                    AdPrtName = @"E:\_Study\3 курс 2 сем\ОАК\Units\MyLocator.SLDPRt";
                     longstatus = 0;
                     swDoc = ((ModelDoc2)(swApp.ActiveDoc));
                     Preop = swApp.OpenDoc6(AdPrtName, (int)swDocumentTypes_e.swDocPART,
@@ -116,15 +116,15 @@ namespace Macro1.csproj
                     faceToSelect = GetSecondSelectedCylinder(faces, surfaces, ref cylinderDiameter);
                     //выбор цилиндра с минимальным диаметром - палец
                     GetCylinderWithMinDiameterInFirstFinger(Np);
-                    planeMate = swAssembly.AddMate3((int)swMateType_e.swMateCONCENTRIC, -1, false, 0, 0, 0, 0, 0, 0.5, 0.5, 0.5, false, out longwarnings);
+                    planeMate = swAssembly.AddMate3((int)swMateType_e.swMateCONCENTRIC, 0, false, 0, 0, 0, 0, 0, 0.5, 0.5, 0.5, false, out longwarnings);
                     DeselectAllSurfaces(SelectionManager);
                     swDoc.Rebuild(1);
 
                     equationManager = (EquationMgr)(((IModelDoc2)Np.GetModelDoc()).GetEquationMgr());
-                    findSubstring = "FirstFingerDiameter";
+                    findSubstring = "D";
                     ChooseDiameterInFinger(cylinderDiameter, equationManager, findSubstring);
                     swDoc.Rebuild(1);
-                    MovingComponent(Np, new double[] { 0, 0, 0.1 });
+                    MovingComponent(Np, new double[] { 0, 0, 0 });
 
                     ////////////////////////////////////////////Вставка пластины1
                     string AdPrtName3 = @"E:\_Study\3 курс 2 сем\ОАК\Units\Locator7.SLDPRt";
@@ -334,26 +334,6 @@ namespace Macro1.csproj
             Tnew.SetData(X, Y, Z, P, S);
             component.Transform = Tnew;
             ((ModelDoc2)swApp.ActiveDoc).EditRebuild3();
-        }
-
-        /// <summary>
-        /// ////////////////////////////////////////////
-        /// ////////////////////////////////////////////
-        ///         /// ////////////////////////////////////////////
-        /// ////////////////////////////////////////////
-        ///         /// ////////////////////////////////////////////
-        ///                 /// ////////////////////////////////////////////
-        ///                         /// ////////////////////////////////////////////
-        /// ////////////////////////////////////////////
-        ///         /// ////////////////////////////////////////////
-        /// ////////////////////////////////////////////
-        ///         /// ////////////////////////////////////////////
-        /// ////////////////////////////////////////////
-        /// ////////////////////////////////////////////
-        /// ////////////////////////////////////////////
-        /// </summary>
-        /// 
-       
+        }     
     }
-        
 }
